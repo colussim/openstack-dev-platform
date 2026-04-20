@@ -812,6 +812,10 @@ Each of these issues has a documented fix in this guide. The resulting environme
 ## 📚 References
 
 
+[DevStack](https://docs.openstack.org/devstack/latest/)
+[OpenStack Platform Components](https://docs.redhat.com/en/documentation/red_hat_openstack_platform/8/html/architecture_guide/components)
+
+
 ---
 
 ## 🚀 Next steps
@@ -889,8 +893,9 @@ standard REST APIs, adding:
   from their own pool
 - **White-label branding** — each reseller can present a customised portal
   to their customers
+---
 
 
-> This is the architecture adopted by hosting providers migrating from VMware vSphere + vCloud Director to OpenStack + VHI OpenStack handles the bare-metal infrastructure layer while VHI provides the commercial reseller abstraction above it.
+This is the architecture adopted by hosting providers migrating from VMware vSphere + vCloud Director to OpenStack + VHI OpenStack handles the bare-metal infrastructure layer while VHI provides the commercial reseller abstraction above it.
 
 
