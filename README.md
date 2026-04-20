@@ -453,6 +453,24 @@ resource "openstack_compute_instance_v2" "web" {
 
 ---
 
+## 🖥️  Skyline (Modern Dashboard)
+
+Skyline is the next-generation OpenStack dashboard built with Vue.js — 
+a modern, responsive alternative to Horizon with significantly better 
+performance and a cleaner user interface.
+
+If you want to replace or complement Horizon with Skyline, a dedicated 
+installation guide is available:
+
+📖 [Skyline Installation Guide](SKYLINE.md)
+
+
+![dashskyline.png](imgs/dashskyline.png)
+
+
+
+---
+
 
 ## 🧾 OpenStack CLI client and admin credentials
 
@@ -814,6 +832,8 @@ Each of these issues has a documented fix in this guide. The resulting environme
 
 [DevStack](https://docs.openstack.org/devstack/latest/)
 [OpenStack Platform Components](https://docs.redhat.com/en/documentation/red_hat_openstack_platform/8/html/architecture_guide/components)
+[Skyline (Modern Dashboard)](https://opendev.org/openstack/skyline-console.git)
+
 
 
 ---
